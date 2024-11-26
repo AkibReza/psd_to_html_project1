@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEM Hero Section</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="navbar__icon">🌟</div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Portfolio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Blog</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Contact</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">FAQs</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Hero Content -->
+      <div class="hero__content">
+        <div class="hero__image">
+          <img src="./src/1.jpg" alt="Placeholder Image" />
+        </div>
+        <div class="hero__text">
+          <h1 class="hero__title">We Design and Develop</h1>
+          <p class="hero__paragraph">
+            We are a new design studio based in USA. We have over 20 years of
+            combined experience, and know a thing or two about designing
+            websites and mobile apps.
+          </p>
+          <button class="hero__button">Contact Us</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Us -->
+    <section class="about">
+      <div class="about__content">
+        <h2 class="about__title">About Us</h2>
+        <p class="about__paragraph">
+          We are a team of dedicated professionals committed to delivering
+          exceptional services. Our goal is to provide top-notch solutions
+          tailored to your needs.
+        </p>
+        <div class="about__signature">
+          <img src="src/sign.png" alt="Signature" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="skills">
+      <div class="skills__left">
+        <h2 class="skills__title">Professional Skills</h2>
+        <div class="skills__item">
+          <span class="skills__name">UI/UX Design 75%</span>
+          <div class="skills__bar">
+            <div class="skills__progress" style="width: 75%"></div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <span class="skills__name">Web Development 90%</span>
+          <div class="skills__bar">
+            <div class="skills__progress" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <span class="skills__name">Marketing 65%</span>
+          <div class="skills__bar">
+            <div class="skills__progress" style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skills__right">
+        <img src="src/2.jpg" alt="Skills Image" class="skills__image" />
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects">
+      <div class="projects__grid">
+        <!-- Example project -->
+        <a href="project1.html" class="projects__item">
+          <img src="./src/pro1.jpg" alt="Project 1" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 1</span>
+          </div>
+        </a>
+        <a href="project2.html" class="projects__item">
+          <img src="./src/pro2.jpg" alt="Project 2" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 2</span>
+          </div>
+        </a>
+        <a href="project3.html" class="projects__item">
+          <img src="./src/pro3.jpg" alt="Project 3" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 3</span>
+          </div>
+        </a>
+        <a href="project4.html" class="projects__item">
+          <img src="./src/pro4.jpg" alt="Project 4" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 4</span>
+          </div>
+        </a>
+        <a href="project5.html" class="projects__item">
+          <img src="./src/pro5.jpg" alt="Project 5" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 5</span>
+          </div>
+        </a>
+        <a href="project6.html" class="projects__item">
+          <img src="./src/pro6.jpg" alt="Project 6" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 6</span>
+          </div>
+        </a>
+        <a href="project7.html" class="projects__item">
+          <img src="./src/pro7.jpg" alt="Project 7" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 7</span>
+          </div>
+        </a>
+        <a href="project8.html" class="projects__item">
+          <img src="./src/pro8.jpg" alt="Project 8" class="projects__image" />
+          <div class="projects__overlay">
+            <span class="projects__title">Project 8</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="work-progress">
+      <div class="work-progress__content">
+        <h2 class="work-progress__title">Our Work Progress</h2>
+        <p class="work-progress__description">
+          Take a look at how we approach our projects and ensure quality in
+          every step. Our video showcases the behind-the-scenes of our workflow.
+        </p>
+        <div class="work-progress__video">
+          <video controls class="work-progress__video-player">
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
